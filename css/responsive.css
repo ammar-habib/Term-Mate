@@ -1,0 +1,42 @@
+@media (max-width: 1199px){
+
+}
+@media (max-width: 991px){
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 575px){
+	.nav-search-input .input-group {
+		width: auto;
+	}
+	.sign-social-btn-div{
+		text-align: center;
+	}
+	#navbarContent{
+		margin-top: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
