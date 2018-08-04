@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="keywords" content=""/>
+
+    <title></title>
+
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700" rel="stylesheet"/>
+
+    <!-- Add custom CSS here -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="img-fluid logo"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarContent">
+                    <form class="m-auto nav-search-input text-center">
+                        <div class="input-group nav-form-control">
+                            <input type="text" class="form-control" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn" type="button">
+                                    <i class="fa fa-search position-relative" aria-hidden="true" style="top: -5px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <!--Hidden after login-->
+                    <div class="my-2 my-lg-0 text-center d-none">
+                        <a href="signin.html" class="btn cutom-btn btn-primary my-2 my-sm-0">Sign in</a>
+                    </div>
+                    <!--End Hidden after login-->
+
+                    <!--Show after login-->
+                    <div class="my-2 my-lg-0 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="upload.html" class="btn cutom-btn btn-primary my-2 my-sm-0">Upload</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="img-wrap nav-profile-img">
+                                    <img src="img/img.png" class="img-fluid rounded"/>
+                                </div>
+                                <span class="ml-1">Ammar</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- End Show after login-->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="d-flex align-items-center bg-light-green h-100vh py-mobile-4 pb-2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                        <div class="bg-white shadow-sm border rounded">
+                            <div class="heading border-bottom">
+                                <p class="p-3 mb-0">Upload 1 on 1</p>
+                            </div>
+                            <div class="body border-bottom py-3">
+                                <div class="row m-0">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="d-flex text-center align-items-center justify-content-center border upload-file-div">
+                                            <div class="w-100 bg-primary text-white py-2">Preparing file to upload</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                        <form class="upload-form">
+                                            <div class="form-group">
+                                                <label>Title</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Description</label>
+                                                <textarea class="form-control"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Tags</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Privacy</label>
+                                                <select class="form-control">
+                                                    <option>Public</option>
+                                                    <option>Public</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <label>Dicoverability</label>
+                                                <div class="progress custom-progress">
+                                                    <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer px-2 py-3">
+                                <a href="upload-two.html" class="btn cutom-btn btn-primary float-right ">Publish</a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="bg-primary text-white pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a href="#">
+                        <img src="img/logo-white.png" class="img-fluid logo mb-3">
+                    </a>
+                    <p class="mb-0">Copyright © 2017 Termmate.com</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white">term</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white">
+                                Cookie Policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Termmate for Business</a></li>
+                        <li><a href="#" class="text-white">Become an Instructor</a></li>
+                        <li><a href="#" class="text-white">Affiliate</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+                    <ul>
+                        <li><a href="#" class="text-white">Topics</a></li>
+                        <li><a href="#" class="text-white">Mobile App</a></li>
+                        <li><a href="#" class="text-white">Support</a></li>
+                        <li><a href="#" class="text-white">Careers</a></li>
+                        <li><a href="#" class="text-white">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <ul class="list-inline text-lg-right text-md-right text-sm-left text-xs-left footer-social-link">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

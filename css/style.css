@@ -4,6 +4,9 @@
     src: url(../fonts/MuseoSans_500.ttf);
     
 }
+
+/*basic and common classes*/
+
 body {
     font-family: 'museosans','Lato', sans-serif;
     font-weight: 400;
@@ -29,6 +32,9 @@ ul{
     list-style: none;
     padding: 0px;
 }
+.h-100vh{
+    height: 100vh;
+}
 .font-ms{
     font-family:museosans; 
 }
@@ -38,6 +44,10 @@ ul{
 .bg-primary{
     background: #0fb4b6 !important;
 }
+.bg-light-green{
+    background: #eeeeee;
+}
+
 .btn-primary{
     color: #fff;
     background-color: #0fb4b6;
@@ -63,6 +73,11 @@ ul{
     outline: 0;
     box-shadow: none;
 }
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
 .cutom-btn{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -71,6 +86,40 @@ ul{
     font-size: 14px;
     line-height: 1;
 }
+.img-wrap {
+    position: relative;
+    margin: auto;
+}
+.img-wrap img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+textarea{
+    resize: none;
+    min-height: 100px !important;
+}
+label{
+    margin-bottom: 0px;
+}
+.form-control {
+    border-color: #c9c6cd;
+    color: #8c8c8c;
+    font-size: 14px;
+    height: 30px;
+}
+select.form-control {
+    height: 34px !important;
+}
+textarea.form-control {
+
+}
+/*navbar*/
 .logo {
     height: 35px;
 }
@@ -94,6 +143,16 @@ ul{
 .nav-form-control .form-control:focus{
     box-shadow: none;
 }
+.nav-profile-img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.nav-profile-img img{
+    margin-top: 15px;
+}
+
+/*End navbar*/
 .section-bg{
     background: url('../img/bg.jpg') no-repeat center;
     height: 100vh;
@@ -146,11 +205,7 @@ ul{
 .google-btn .sign-social-btn-text{
     padding: 12px 21px;
 }
-.form-control:focus {
-    border-color: none;
-    outline: 0;
-    box-shadow: none;
-}
+
 .sign-social-btn-div {
     border-right: 1px solid #c9c6cd;
     height: 150px;
@@ -175,6 +230,40 @@ ul{
     margin-left: 5px;
     font-weight: 600;
 }
+
+/*uploaded pages class*/
+
+.custom-progress {
+    height: 10px;
+    background: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: 30px;
+}
+.upload-file-div {
+    height: 190px;
+}
+.files-icon{
+    width: 280px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+.upload-btn-wrapper {
+    text-align: center;
+    display: block;
+    width: 25%;
+    margin: 0 auto 5px;
+}
+.upload-btn-wrapper input[type="file"] {
+    position:absolute;
+    top: -1000px;
+}
+.icon {
+    width: 40px;
+}
+.border-dash{
+    border: 2px dashed #bcbcbc;;
+}
+/*Footer*/
 .footer-social-link li {
   background: #fff;
   padding: 3px 8px;
