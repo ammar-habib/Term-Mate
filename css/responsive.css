@@ -1,7 +1,16 @@
-@media (max-width: 1199px){
 
+@media (max-width: 1199px){
+	.upload-doc-div {
+		max-width: 280px;
 }
 @media (max-width: 991px){
+	.container{
+		max-width: 100%;
+	}
+	.upload-doc-div {
+		max-width: 230px;
+		height: 300px;
+	}
 	.h-100vh{
 		height: auto;
 	}
@@ -121,8 +130,6 @@
 	.py-mobile-5, .pt-mobile-5{
 		padding-top: 3rem !important;
 	}
-
-
 	.px-mobile-0, .pr-mobile-0{
 		padding-right: 0rem !important;
 	}
@@ -159,8 +166,26 @@
 	.px-mobile-5, .pl-mobile-5{
 		padding-left: 3rem !important;
 	}
+	.profile-section {
+		margin-bottom: 15px;
+	}
+	.doc-uploads-ul .list-inline-item:not(:last-child) {
+		 margin-right: .5rem;
+
+	}
 }
 @media (max-width: 575px){
+	.profile-nav-pills .nav-item {
+		width: 100%;
+	}
+	.profile-nav-pills .nav-link{
+		margin-right:0px;
+		border-radius: 0px;
+	}
+	.doc-uploads-ul{
+		text-align: center;
+	}
+}
 	.nav-search-input .input-group {
 		width: auto;
 	}
