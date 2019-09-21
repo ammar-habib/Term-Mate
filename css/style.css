@@ -68,7 +68,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-primary {
-    color: #0fb4b6 !important;
+    color: #0fb4b6  !important;
+}
+
+.text-secondary {
+    color: #8c8c8c !important;
 }
 
 .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
@@ -621,6 +625,209 @@ textarea.form-control {
     content: " ";
     display: block;
     border-bottom: 1px solid #858585;
+}
+
+
+/*instiitute page*/
+.teacher-profile-li {
+    text-align: center;
+    width: 150px;
+}
+.teacher-profile-li p{
+    margin-bottom: 0;
+}
+.teacher-profile-li .caption p {
+    margin-bottom: 0;
+    color: #8c8c8c;
+}
+
+
+.teacher-profile-li .profile-img {
+    margin: 0 auto 15px !important;
+}
+
+.teacher-profile-li:not(:last-child) {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/*.review-listing .review-media:not(:last-child){*/
+    /*border-bottom: none;*/
+/*}*/
+.review-media {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.review-media .profile-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px 0 0;
+}
+.review-media .caption {
+    margin-bottom: 15px;
+}
+.subject-accordion .card-header {
+    background-color: transparent;
+    padding: .6rem 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.subject-accordion .btn-link{
+    color: #0fb4b6;
+    text-decoration: none !important;
+}
+
+.subject-accordion .card-body {
+    padding: .6rem .75rem;
+}
+.subject-form-control label{
+    color: #8c8c8c;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.subject-form-control .btn-white{
+    color: #838383;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.subject-form-control .form-control{
+    border-color: #a5a5a5;
+    color: #838383;
+    height: 38px;
+}
+.subject-accordion-title{
+    text-align: left;
+    min-width: 100px;
+    display: inline-block;
+}
+.btn-flex {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.btn-flex .btn:first-child {
+    flex-grow: 1;
+    text-align: left;
+}
+.subject-accordion {
+    border: none;
+}
+.apply-card {
+    border: 1px solid #a6a6a6;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.apply-card .card-body{
+    padding: 2rem 3rem 1.25rem;
+}
+
+.apply-card .card-footer{
+    background: transparent;
+    padding: 1rem 3rem;
+    border-top: 1px solid #a6a6a6;
+}
+
+.final-total {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 8px;
+}
+
+.selected-course {
+    margin-right: 10px;
+}
+
+.selected-time {
+    margin: 0 10px;
+}
+
+.selected-teacher {
+    margin-left: 10px;
+}
+
+.sub-total {
+    margin-left: 15px;
+}
+.apply-cards-row .btn {
+    min-width: 130px;
+}
+.institute-carousel .carousel-inner {
+    height: 300px;
+}
+
+.institute-carousel .carousel-item{
+    height: 100%;
+
+}
+.institute-carousel .carousel-item:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+.institute-carousel .carousel-caption{
+    text-align: left;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.institute-carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(139, 144, 121, .4);
+}
+.institute-carousel .carousel-indicators .active{
+    background-color:#ffffff !important;
+
+}
+@media (max-width: 767px) {
+    .institute-carousel .carousel-inner {
+         height: 100%;
+    }
+    .institute-carousel .media-heading {font-size: 20px;}
+    .institute-carousel h5{
+        font-size: 16px;
+    }
+    .institute-carousel .profile-img{
+        width: 80px;
+        height: 80px;
+    }
+    .institute-carousel .earning-btn{
+        font-size: 14px;
+    }
+    .institute-carousel .carousel-caption{
+        bottom: 20%;
+    }
+}
+@media (max-width: 575px) {
+    .apply-card .card-body {
+        padding: 1.25rem;
+    }
+    .apply-card .card-footer{
+        padding:1rem 1.25rem;
+    }
+    .apply-card .text-right{
+        text-align: left !important;
+        margin-top: 10px;
+    }
+    .institute-carousel .media-heading {font-size: 16px;}
+    .institute-carousel h5{
+        font-size: 14px;
+    }
+    .institute-carousel .profile-img{
+        width: 80px;
+        height: 80px;
+    }
+    .institute-carousel .earning-btn{
+        font-size: 12px;
+    }
+    .institute-carousel .carousel-caption{
+        bottom: 5%;
+    }
 }
 
 /*Footer*/
